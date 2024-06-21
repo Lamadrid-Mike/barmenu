@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  h1 {
+    animation: pulsate 1s forwards;
+  }
+
+  img {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+  }
+}
+
+.menu__container {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.divider {
+  text-align: center;
+  font-size: larger;
+}
+
+@keyframes pulsate {
+  from {
+    text-shadow: #ffffff;
+  }
+  to {
+    text-shadow: 2px 0px 19px rgba(240, 0, 255, 1);
+  }
+}
